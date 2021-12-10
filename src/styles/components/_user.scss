@@ -74,6 +74,10 @@
 }
 .user__each-type-container{
     display: flex;
+    flex-direction: column;
+}
+.user__icon-text{
+    display: flex;
     margin-left: 20px;
     p{
         margin-left: 8px;
@@ -85,4 +89,21 @@
     svg{
         width: 25px;
     }
+}
+.user__type-of-skill-container{
+    align-items: center;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0 5px 0;
+    width: 95%;
+}
+.user__skill{
+    color: $white;
+    cursor: pointer;
+    background-color: $back-second;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 2px;
+    padding: 6px 8px;
 }
