@@ -16,9 +16,16 @@ export const UserScreen = () => {
                 </div>
             </div>
             <div className='user__photo-name-container'>
-                <div className='user__photo'><img src='./foto.jpg' alt='' /></div>
+                <div className='user__photo' style={{backgroundImage: 'url(./foto.jpg)'}}></div>
                 <h2>Brandon Triana</h2>
             </div>
+            <div className='user__skills-container'>
+                <p>Skills and interests:</p>
+                <div className="user__each-type-container">
+
+                </div>
+            </div>
+
         </div>
     )
 }

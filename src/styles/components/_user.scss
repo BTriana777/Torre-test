@@ -38,9 +38,27 @@
     font-weight: lighter;
     margin-left: 20px;
 }
+.user__photo-name-container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    justify-content: center;
+    margin-top: 20px;
 
+    h2 {
+        color: $white;
+        margin-top: 24px;
+        font-size: 22px;
+    }
+}
 .user__photo{
     background-color: $primary;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 8px solid $primary;
+    border-radius: 40px;
     height: 140px;
     width: 140px;
 }
