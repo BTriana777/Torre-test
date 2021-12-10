@@ -62,3 +62,27 @@
     height: 140px;
     width: 140px;
 }
+
+.user__skills-container{
+    color: $primary;
+    margin-top: 10px;
+    
+    &>p{
+        font-size: 18px;
+        margin: 0 0 20px 20px;
+    }
+}
+.user__each-type-container{
+    display: flex;
+    margin-left: 20px;
+    p{
+        margin-left: 8px;
+        font-size: 1;
+    }
+}
+.user__icon-skill{
+    fill: $primary;
+    svg{
+        width: 25px;
+    }
+}
