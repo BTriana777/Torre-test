@@ -56,7 +56,7 @@ export const UserScreen = () => {
     return (
         <>
             <div className='user__container'>
-                <div className='user__search-container' style={ searchActived? {display: 'flex'}:{display: 'none'}}>
+                <div className='user__search-container animate__animated animate__fadeInDown' style={ searchActived? {display: 'flex'}:{display: 'none'}}>
                     <form>
                         <input
                             onSubmit={handleSubmit}

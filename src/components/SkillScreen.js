@@ -31,7 +31,7 @@ export const SkillScreen = ({name, data, handleCloseSkill}) => {
     }
 
     return (
-        <div className='skill__cointainer'>
+        <div className='skill__cointainer animate__animated animate__fadeInRight'>
             <div className='skill__header'>
                 <AiOutlineClose size={'30'} color='#E9EAEA' cursor='pointer' onClick={handleCloseSkill}/>
                 <h2>{name}</h2>
